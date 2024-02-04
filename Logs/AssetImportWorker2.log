@@ -1,0 +1,1019 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.2f1 (d74737c6db50) revision 14108471'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7955 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Unity Editor\2022.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Unity Projects/Ball simulation/Ball simulation
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49818
+Successfully changed project path to: C:/Unity Projects/Ball simulation/Ball simulation
+C:/Unity Projects/Ball simulation/Ball simulation
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20732] Host "[IP] 192.168.29.104 [Port] 0 [Flags] 2 [Guid] 225959643 [EditorId] 225959643 [Version] 1048832 [Id] WindowsEditor(7,DegenerationX) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [20732] Host "[IP] 192.168.29.104 [Port] 0 [Flags] 2 [Guid] 225959643 [EditorId] 225959643 [Version] 1048832 [Id] WindowsEditor(7,DegenerationX) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 3306.27 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.2f1 (d74737c6db50)
+[Subsystems] Discovering subsystems at path C:/Unity Editor/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity Projects/Ball simulation/Ball simulation/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a5)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.3699
+Initialize mono
+Mono path[0] = 'C:/Unity Editor/2022.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Unity Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Unity Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Unity Editor/2022.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Unity Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009135 seconds.
+- Loaded All Assemblies, in  4.890 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 604 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.021 seconds
+Domain Reload Profiling: 5910ms
+	BeginReloadAssembly (4586ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (172ms)
+		LoadAssemblies (4580ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (139ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (1022ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (967ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (817ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (87ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Assembly 'Assets/ExternalDependencyManager/Editor/1.2.177/Google.IOSResolver.dll' will not be loaded due to errors:
+Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+Symbol file LoadedFromMemory is not a mono symbol file
+Assembly 'Assets/Firebase/Editor/Firebase.Editor.dll' will not be loaded due to errors:
+Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+- Loaded All Assemblies, in 12.459 seconds
+Refreshing native plugins compatible for Editor in 141.81 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.723 seconds
+Domain Reload Profiling: 14170ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (12146ms)
+		LoadAssemblies (11943ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (351ms)
+			TypeCache.Refresh (324ms)
+				TypeCache.ScanAssembly (305ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1726ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1581ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (1008ms)
+			ProcessInitializeOnLoadMethodAttributes (456ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 125.98 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 309 unused Assets / (196.6 KB). Loaded Objects now: 4328.
+Memory consumption went from 162.2 MB to 162.0 MB.
+Total: 10.990700 ms (FindLiveObjects: 0.643900 ms CreateObjectMapping: 0.124900 ms MarkObjects: 7.477400 ms  DeleteObjects: 2.743000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Assembly 'Assets/ExternalDependencyManager/Editor/1.2.177/Google.IOSResolver.dll' will not be loaded due to errors:
+Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+Symbol file LoadedFromMemory is not a mono symbol file
+Assembly 'Assets/Firebase/Editor/Firebase.Editor.dll' will not be loaded due to errors:
+Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+- Loaded All Assemblies, in  3.954 seconds
+Refreshing native plugins compatible for Editor in 122.85 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at VoxelBusters.CoreLibrary.Editor.SettingsObjectEditorManager.OnEditorReload () [0x0000d] in C:\Unity Projects\Ball simulation\Ball simulation\Assets\Plugins\VoxelBusters\CoreLibrary\Editor\CoreLibrary\Controllers\SettingsObjectEditorManager.cs:16 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <605bf8b31fcb444b85176da963870aa7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <605bf8b31fcb444b85176da963870aa7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <605bf8b31fcb444b85176da963870aa7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <ac87b54e58ee4be198261fd5c8030d52>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.010 seconds
+Domain Reload Profiling: 6963ms
+	BeginReloadAssembly (881ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (88ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (454ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (2954ms)
+		LoadAssemblies (2330ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (754ms)
+			TypeCache.Refresh (718ms)
+				TypeCache.ScanAssembly (475ms)
+			ScanForSourceGeneratedMonoScriptInfo (32ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (3013ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1091ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (642ms)
+			ProcessInitializeOnLoadMethodAttributes (303ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 118.09 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 281 unused Assets / (164.1 KB). Loaded Objects now: 4334.
+Memory consumption went from 155.0 MB to 154.8 MB.
+Total: 13.336100 ms (FindLiveObjects: 0.604700 ms CreateObjectMapping: 0.116800 ms MarkObjects: 12.311900 ms  DeleteObjects: 0.301100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3138.757683 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_3_White.png
+  artifactKey: Guid(972a7ac4ffe344cb6b704a35f2a6d631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_3_White.png using Guid(972a7ac4ffe344cb6b704a35f2a6d631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99e8f48219fff307311b891ec18bf81') in 0.228187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.023721 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_4_Aqua.png
+  artifactKey: Guid(4d1dfd69b7755442697f28d60a980d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_4_Aqua.png using Guid(4d1dfd69b7755442697f28d60a980d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af59d420e22014da0ebb6092015e0caf') in 0.025172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001261 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_4_Pink.png
+  artifactKey: Guid(1d45198fc4e854b62896651cefb17e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_4_Pink.png using Guid(1d45198fc4e854b62896651cefb17e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21f93c5d590c005043bcc3e5dfb24c3') in 0.018971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_4_White.png
+  artifactKey: Guid(386c94c26d6904e8fa68371eebbbaaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_4_White.png using Guid(386c94c26d6904e8fa68371eebbbaaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c904c89f102c7bfafbb64c244981377f') in 0.015935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_4_Black.png
+  artifactKey: Guid(faab2a7b64954475c846e64886f97afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_4_Black.png using Guid(faab2a7b64954475c846e64886f97afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fe283f897686fdc8911499c266112f') in 0.016640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_5_Black.png
+  artifactKey: Guid(405cdb855ae684b89901d52ea43f59fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_5_Black.png using Guid(405cdb855ae684b89901d52ea43f59fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67aad98436acdacfae8bfe498964d925') in 0.020327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_5_Orange.png
+  artifactKey: Guid(bb2001a8e9e3e4d0bbae5ce24bee1d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_5_Orange.png using Guid(bb2001a8e9e3e4d0bbae5ce24bee1d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f5e4700cb99cbb09b9ebdb41350179') in 0.019434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_5_Purple.png
+  artifactKey: Guid(86d0790b0869c473d9879d4408f43b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_5_Purple.png using Guid(86d0790b0869c473d9879d4408f43b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9d8328c339f0889b3dd17df0a3e22e') in 0.020039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_5_White.png
+  artifactKey: Guid(c1462da7a36674526a071ec6f22fab52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_5_White.png using Guid(c1462da7a36674526a071ec6f22fab52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e9b1914c91e11a1fbab0c0da967e46') in 0.018831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_5_Yellow.png
+  artifactKey: Guid(13b2b392666aa4e439f3d5d38e320a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_5_Yellow.png using Guid(13b2b392666aa4e439f3d5d38e320a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8f776afa210ee9f0cdeec1a52f0f6a') in 0.024407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_DailyRewardActive.png
+  artifactKey: Guid(c75aa515cb45049fa8898682867d7809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_DailyRewardActive.png using Guid(c75aa515cb45049fa8898682867d7809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2309333c1ce32402cda7472f9b0c402') in 0.017780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_Messages.png
+  artifactKey: Guid(817fa2dce385b4030b0b857cb19228e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_Messages.png using Guid(817fa2dce385b4030b0b857cb19228e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb21eb5cc6b541f064ced40c73da61d') in 0.016370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_4_Green.png
+  artifactKey: Guid(f7884d0b9b5314107ad7aef8dcc7e9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_4_Green.png using Guid(f7884d0b9b5314107ad7aef8dcc7e9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293f1d8b89cb01f46040eb29fea1366d') in 0.019219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_shopRed.png
+  artifactKey: Guid(31be6215d04044f4a9b653635baf57c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_shopRed.png using Guid(31be6215d04044f4a9b653635baf57c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4332b3e035e2abb0a26d58439a3ec19e') in 0.031281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_back_glow.png
+  artifactKey: Guid(6028e705cc7ce4c059a95dab800a0ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_back_glow.png using Guid(6028e705cc7ce4c059a95dab800a0ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd1a9fdb7c6585e216c425e81e6e09c') in 0.024574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_bottom_bg_small.png
+  artifactKey: Guid(50bb820dd9c2a4a289d136ab2825c2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_bottom_bg_small.png using Guid(50bb820dd9c2a4a289d136ab2825c2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7284618d2b863aa744146260277987') in 0.021402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_Plus2.png
+  artifactKey: Guid(90a80bdb170f34e38ac9fed52c9a5d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_Plus2.png using Guid(90a80bdb170f34e38ac9fed52c9a5d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f1049bec447bd5e2d535d30a77d5c8') in 0.018781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_sample_01.png
+  artifactKey: Guid(b1f9a92d257e345aebaa51ff95012db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_sample_01.png using Guid(b1f9a92d257e345aebaa51ff95012db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f51eeb6e86db8c8c370af45a0aa514d') in 0.040242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_sample_04.png
+  artifactKey: Guid(f802ceda35f5c4662a240c6ceef56a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_sample_04.png using Guid(f802ceda35f5c4662a240c6ceef56a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405591747fdab87a5ab668533455cf9f') in 0.020937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_sample_08.png
+  artifactKey: Guid(03d60d02db2f54c029a14fa2d2ce097b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_sample_08.png using Guid(03d60d02db2f54c029a14fa2d2ce097b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a767831a5a7acfe62c019ccfa136a81c') in 0.020569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_sample_09.png
+  artifactKey: Guid(61d43c9213e96492da5161e16d57dfc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_sample_09.png using Guid(61d43c9213e96492da5161e16d57dfc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf4d68562852718a230b5bb3919f0a8') in 0.022435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ClientIcons/chirag_kalta_786.jpeg
+  artifactKey: Guid(c90cd73e9aeb347c9b3ea0b23c7269df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClientIcons/chirag_kalta_786.jpeg using Guid(c90cd73e9aeb347c9b3ea0b23c7269df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa5564c1ed6720cf4507bce4aad7143') in 0.020486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_sample_03.png
+  artifactKey: Guid(695bf1a0f9b004b57b57a6b3f78e4322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_sample_03.png using Guid(695bf1a0f9b004b57b57a6b3f78e4322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a977ddccfc472925a41b61d2233fa10') in 0.021621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_sample_05.png
+  artifactKey: Guid(ee6c8f37bd0f143a89513cadc662c0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_sample_05.png using Guid(ee6c8f37bd0f143a89513cadc662c0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2224b6775ac9753bfe5a39b08c0d398') in 0.028560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_5_Pink.png
+  artifactKey: Guid(538daf39402b84b659044ae43ee18af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_5_Pink.png using Guid(538daf39402b84b659044ae43ee18af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0a0497b1ba3185763d07c93dd19c5f') in 0.025989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_4_Purple.png
+  artifactKey: Guid(6e98f8cfb669547729ad62d17b9feac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Buttons/button_4_Purple.png using Guid(6e98f8cfb669547729ad62d17b9feac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cee918b102b69222a179d07344ce870') in 0.021359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_sample_00_m.png
+  artifactKey: Guid(d7e46c7d742f5489891d6e506f211ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_sample_00_m.png using Guid(d7e46c7d742f5489891d6e506f211ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dac267780cdce6f09a652592e4fe177') in 0.052900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.407347 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/Shadow/EquipIcons_32/equip_icon_potion_blue_0.png
+  artifactKey: Guid(8fc305af166ca47f0bc1e8d3f03d1aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/Shadow/EquipIcons_32/equip_icon_potion_blue_0.png using Guid(8fc305af166ca47f0bc1e8d3f03d1aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971ec6146ed13747e5e9ab6f8123e960') in 0.029007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(Original)/equip_icon_potion_blue_0.png
+  artifactKey: Guid(a7163c6fd94624c289e095b4f71a6291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(Original)/equip_icon_potion_blue_0.png using Guid(a7163c6fd94624c289e095b4f71a6291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b581f421053eb7e1fad6d2d831cff893') in 0.018612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_256/equip_icon_potion_blue_1.png
+  artifactKey: Guid(b22e9203d88f849b185ee4301f6504b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_256/equip_icon_potion_blue_1.png using Guid(b22e9203d88f849b185ee4301f6504b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44355157bf5167431d5d2016e0e4e025') in 0.020908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001823 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/Shadow/EquipIcons_64/equip_icon_potion_blue_1.png
+  artifactKey: Guid(7ae3aa40059ef43bfb737c101307cf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/Shadow/EquipIcons_64/equip_icon_potion_blue_1.png using Guid(7ae3aa40059ef43bfb737c101307cf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24971d67a921959f62c62d55f55874a0') in 0.021819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_128/equip_icon_potion_blue_1.png
+  artifactKey: Guid(b862a94b10b564f988843dae9b46fe57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_128/equip_icon_potion_blue_1.png using Guid(b862a94b10b564f988843dae9b46fe57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe18d4a4f588d57ffad191202b4b9778') in 0.029366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_512/equip_icon_potion_blue_1.png
+  artifactKey: Guid(f0b02c67bc7e74f6492886807a93b5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_512/equip_icon_potion_blue_1.png using Guid(f0b02c67bc7e74f6492886807a93b5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d62e845eefc54390680287d1d8cdd8') in 0.021593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(Original)/equip_icon_potion_blue_2.png
+  artifactKey: Guid(1b195246de82c4ff1adcd3bae4113b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(Original)/equip_icon_potion_blue_2.png using Guid(1b195246de82c4ff1adcd3bae4113b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3889e390e56a18208d06f6fc7d51967') in 0.022263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_512/equip_icon_potion_blue_2.png
+  artifactKey: Guid(d4b8410d2148e4d0b840fc43b7e65067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_512/equip_icon_potion_blue_2.png using Guid(d4b8410d2148e4d0b840fc43b7e65067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b39d7b0cf65ce2ea5703ef60748a03') in 0.025534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_32/equip_icon_potion_blue_1.png
+  artifactKey: Guid(cee44e9440cee4b7782b34b882c810b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_32/equip_icon_potion_blue_1.png using Guid(cee44e9440cee4b7782b34b882c810b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e879fde0a2bc7171b868fc96210c19') in 0.015001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_256/equip_icon_potion_blue_2.png
+  artifactKey: Guid(2ad134562e19648689f9694b0068e31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_256/equip_icon_potion_blue_2.png using Guid(2ad134562e19648689f9694b0068e31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41bc18aca3c9949b5acfa5a310f6b71') in 0.017152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/Shadow/EquipIcons_128/equip_icon_potion_blue_2.png
+  artifactKey: Guid(a82b5fb1370a84512a308d7a81771183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/Shadow/EquipIcons_128/equip_icon_potion_blue_2.png using Guid(a82b5fb1370a84512a308d7a81771183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbdf5f9fff66ef631f554766ef7bc64') in 0.017590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/Shadow/EquipIcons_32/equip_icon_potion_blue_2.png
+  artifactKey: Guid(a955e2b7aa40e477c8696af8440e121a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/Shadow/EquipIcons_32/equip_icon_potion_blue_2.png using Guid(a955e2b7aa40e477c8696af8440e121a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101841e0a9a5ff577335b73c673fcaca') in 0.021355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_32/equip_icon_potion_blue_3.png
+  artifactKey: Guid(c872b1f8d19a94c1ba06ab9f0d65ee0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_32/equip_icon_potion_blue_3.png using Guid(c872b1f8d19a94c1ba06ab9f0d65ee0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abb06ec1a84fdf5847d9ba4ae0803ab') in 0.016814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/Shadow/EquipIcons_256/equip_icon_potion_blue_3.png
+  artifactKey: Guid(71486d90591524ff68b704d7bde2b5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/Shadow/EquipIcons_256/equip_icon_potion_blue_3.png using Guid(71486d90591524ff68b704d7bde2b5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65462fa8c38d1f681caf3e23e84a3894') in 0.019303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_64/equip_icon_potion_blue_3.png
+  artifactKey: Guid(db73d545b6c3d428fa841d306517d3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_64/equip_icon_potion_blue_3.png using Guid(db73d545b6c3d428fa841d306517d3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7c46fdf010cb7c8e94591eb0a310d3') in 0.017952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/Shadow/EquipIcons_128/equip_icon_potion_blue_3.png
+  artifactKey: Guid(3f948ca96050445eca7855a4e9dbe4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/Shadow/EquipIcons_128/equip_icon_potion_blue_3.png using Guid(3f948ca96050445eca7855a4e9dbe4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b64597dff7c9c78f22452a933cb6e2') in 0.018341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_32/equip_icon_potion_blue_4.png
+  artifactKey: Guid(3623d3d43221a44afbbebfdd2b05b510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_32/equip_icon_potion_blue_4.png using Guid(3623d3d43221a44afbbebfdd2b05b510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579ee9c1f134536a647ec63822243a5c') in 0.016006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_256/equip_icon_potion_blue_3.png
+  artifactKey: Guid(9e2cbc6ed30fb426c8604b75b074f298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_256/equip_icon_potion_blue_3.png using Guid(9e2cbc6ed30fb426c8604b75b074f298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19829e57364b311c76cf823a14010fc0') in 0.023045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_128/equip_icon_potion_blue_4.png
+  artifactKey: Guid(6a5b19899613e413a95ce96dc161bf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_128/equip_icon_potion_blue_4.png using Guid(6a5b19899613e413a95ce96dc161bf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7957a63cc4ad3a5c8010ffa49d239c') in 0.020572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/Shadow/EquipIcons_256/equip_icon_potion_blue_4.png
+  artifactKey: Guid(3a3dc3fbe307547c8a1c3c55084bc815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/Shadow/EquipIcons_256/equip_icon_potion_blue_4.png using Guid(3a3dc3fbe307547c8a1c3c55084bc815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab316c27e453407a59189ae77b822e40') in 0.027863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_128/equip_icon_potion_purple_0.png
+  artifactKey: Guid(ed8cd9ce805094562b98b6fe8b4c53f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_128/equip_icon_potion_purple_0.png using Guid(ed8cd9ce805094562b98b6fe8b4c53f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9671efa78c3c1756401d3f592fb68526') in 0.015018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_64/equip_icon_potion_purple_0.png
+  artifactKey: Guid(f28d9096557f949248bc6afa315cadcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_64/equip_icon_potion_purple_0.png using Guid(f28d9096557f949248bc6afa315cadcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9c38262b5d27e10f14bb4f27b31401') in 0.013177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_256/equip_icon_potion_purple_0.png
+  artifactKey: Guid(f2f3a36d6a3784390884aec828a481e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_256/equip_icon_potion_purple_0.png using Guid(f2f3a36d6a3784390884aec828a481e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fa86c814cfc53a4cc81c14311cf90f') in 0.015752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/Shadow/EquipIcons_128/equip_icon_potion_purple_0.png
+  artifactKey: Guid(c47be9492b3254783a5506cc6b49e03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/Shadow/EquipIcons_128/equip_icon_potion_purple_0.png using Guid(c47be9492b3254783a5506cc6b49e03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7701f2600b2274259fe9bb9e42de3ca') in 0.015769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_32/equip_icon_potion_purple_0.png
+  artifactKey: Guid(1741300bf8a7149bebf947f00f3cd6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_32/equip_icon_potion_purple_0.png using Guid(1741300bf8a7149bebf947f00f3cd6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b7cc5128d90ca686f1067f6a1caadd') in 0.020166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_128/equip_icon_potion_blue_3.png
+  artifactKey: Guid(dec400fd819be41c18d1a150836f9f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_128/equip_icon_potion_blue_3.png using Guid(dec400fd819be41c18d1a150836f9f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2606185e2aaef65aa556500450e8f5') in 0.024762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_256/equip_icon_potion_blue_4.png
+  artifactKey: Guid(21003901470404dc4972ae1e33c398cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/NoShadow/EquipIcons_256/equip_icon_potion_blue_4.png using Guid(21003901470404dc4972ae1e33c398cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1a8afa3e9c37f4e1745d558bdfebb6') in 0.022211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/Shadow/EquipIcons_128/equip_icon_potion_blue_4.png
+  artifactKey: Guid(ab586104f9eef4b57af332d2f4459b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipIcons_(x2)/Shadow/EquipIcons_128/equip_icon_potion_blue_4.png using Guid(ab586104f9eef4b57af332d2f4459b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1239d1962958174a9eeb75c5196c01c0') in 0.026638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.126676 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Icons/iconShade_Location.png
+  artifactKey: Guid(2d04f380b997c45a3beea714fc432c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Icons/iconShade_Location.png using Guid(2d04f380b997c45a3beea714fc432c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a8e68f5424bfc4f22109bc4ccefcda') in 0.019749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Image/image_glow_circle.png
+  artifactKey: Guid(5b81854d27f924a7baec8371989d5377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Image/image_glow_circle.png using Guid(5b81854d27f924a7baec8371989d5377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2500f515475edb8894bb1d8028be428d') in 0.017886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Image/image_glow_oval_01.png
+  artifactKey: Guid(e0d2a8d5dc9894a5bb5b677f368a2715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Image/image_glow_oval_01.png using Guid(e0d2a8d5dc9894a5bb5b677f368a2715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de356b95918813b3aa962b6d6325305') in 0.016833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Panels/level_Lock.png
+  artifactKey: Guid(6d3561d9483ca49038a8f9e85dc9ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Panels/level_Lock.png using Guid(6d3561d9483ca49038a8f9e85dc9ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd934eac4237cceb16e318e69359652') in 0.015845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Progress/loading_BarFillBlue.png
+  artifactKey: Guid(dfd4a0d773b654be9bcbe505e71d99a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Progress/loading_BarFillBlue.png using Guid(dfd4a0d773b654be9bcbe505e71d99a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c42570f8a1ce61d7b18083b8e8b655') in 0.020674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Progress/loading_BarFillYellow.png
+  artifactKey: Guid(1859421da164f423ab3010d9d7577c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Progress/loading_BarFillYellow.png using Guid(1859421da164f423ab3010d9d7577c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745dffa75c24af68c6606ea635bcd441') in 0.016728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Animatons/Loading_dot.png
+  artifactKey: Guid(dd29ef13405674f848abe99cdba1e042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Animatons/Loading_dot.png using Guid(dd29ef13405674f848abe99cdba1e042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525058a1aee2bb0c219d9439d064a87f') in 0.024369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Animatons/Loading_rotate_01.png
+  artifactKey: Guid(c1a8b91abb7e542bcb36beac9b1e7452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Animatons/Loading_rotate_01.png using Guid(c1a8b91abb7e542bcb36beac9b1e7452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e52ee6a754dc0ebd769a0ee1c4fd2c3') in 0.018682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Animatons/Loading_rotate_04.png
+  artifactKey: Guid(d5d19c73da9a048f785ba8f6cd6ac0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Animatons/Loading_rotate_04.png using Guid(d5d19c73da9a048f785ba8f6cd6ac0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd69e59f1897b9aafcc743899ab06bb') in 0.018074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Animatons/Loading_rotate_06.png
+  artifactKey: Guid(91d868d22903b4f3a80d0c6647c42842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Animatons/Loading_rotate_06.png using Guid(91d868d22903b4f3a80d0c6647c42842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0a96ce32b20332b6000375ae1efb9b') in 0.018045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Animatons/Loading_rotate_10.png
+  artifactKey: Guid(c2c5f2bcc87df4809abd0e6dbb79443c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Animatons/Loading_rotate_10.png using Guid(c2c5f2bcc87df4809abd0e6dbb79443c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc65c4ba4d0a165faeeb7a2687789d5') in 0.017045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Animatons/Loading_rotate_09.png
+  artifactKey: Guid(1b27fabd0a01f4f92b6e10e96654ed5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Animatons/Loading_rotate_09.png using Guid(1b27fabd0a01f4f92b6e10e96654ed5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c1f193ee2fb3b38aaee2a5d7d39029') in 0.020339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Panels/login_Username.png
+  artifactKey: Guid(b2a4b6b15416e421bb0e5e4a2ce573bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Panels/login_Username.png using Guid(b2a4b6b15416e421bb0e5e4a2ce573bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b176a916c30db7b243d40f49a2ee27d5') in 0.021172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ImageAssets/logo-ig-32464.png
+  artifactKey: Guid(0a735d9fdb5dcab40b8cf798069c220b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageAssets/logo-ig-32464.png using Guid(0a735d9fdb5dcab40b8cf798069c220b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6bda9634efde6b42059d4e67c5a8f3') in 0.016969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PlayFabEditorExtensions/Editor/UI/Images/playfablogo.png
+  artifactKey: Guid(77e37f7fe73c7db4d9a1702eb4ad411b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayFabEditorExtensions/Editor/UI/Images/playfablogo.png using Guid(77e37f7fe73c7db4d9a1702eb4ad411b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5407276bd2ca2c0536357bbf5e4d9683') in 0.019015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Progress/progress_Bar3FillYellow.png
+  artifactKey: Guid(2b35dc8cc635942fd816727acad5c7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Progress/progress_Bar3FillYellow.png using Guid(2b35dc8cc635942fd816727acad5c7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268ce7658b30face9398da211ffb187d') in 0.015317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/set_icon_equip_lock.png
+  artifactKey: Guid(bf1a52335b1f944baba68a1f1010c73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/set_icon_equip_lock.png using Guid(bf1a52335b1f944baba68a1f1010c73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61aeafed34bb3b9455949eb2158d243') in 0.020677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ImageAssets/lock.png
+  artifactKey: Guid(ef3b830cec647e842a143cbeb0c9fdd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImageAssets/lock.png using Guid(ef3b830cec647e842a143cbeb0c9fdd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6c3c3601abeb347932db389c24e21f') in 0.060425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/set_icon_equip_globe.png
+  artifactKey: Guid(dccb42b4691c341c3a63ad5d35a58e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/set_icon_equip_globe.png using Guid(dccb42b4691c341c3a63ad5d35a58e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d85dd756898ad7ae6a3ab205847891') in 0.021139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Panels/level_Locked.png
+  artifactKey: Guid(36452b11ec55b4300a885caa18eb2a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Panels/level_Locked.png using Guid(36452b11ec55b4300a885caa18eb2a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70cb77c064197e8d16bf879fd39b1930') in 0.023222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.409902 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/Preview/61_LoadingBar.png
+  artifactKey: Guid(2a14a93c154f34204b4b4844424361e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/Preview/61_LoadingBar.png using Guid(2a14a93c154f34204b4b4844424361e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84eb41ef2318a4119dbfd50de47e7630') in 0.051354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Background/background_01_loading_3840.png
+  artifactKey: Guid(4087c7b4ae0344e8886013766a0eee97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Background/background_01_loading_3840.png using Guid(4087c7b4ae0344e8886013766a0eee97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e26ffeb0f459c6042cb520ea01483b') in 0.057104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_FunctionIcons_(x2)/FunctionIcons_512/function_icon_reload.png
+  artifactKey: Guid(66de434fc219443f788c2665548807e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_FunctionIcons_(x2)/FunctionIcons_512/function_icon_reload.png using Guid(66de434fc219443f788c2665548807e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98261526864a7bdc3c739dd23b770b99') in 0.019339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI Kit Pro - Casual Glossy/Images/Icons/iconRounded_Upload.png
+  artifactKey: Guid(c5e15b7252bd4444daf2441d0232ab64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Casual Glossy/Images/Icons/iconRounded_Upload.png using Guid(c5e15b7252bd4444daf2441d0232ab64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5442afed8d3096f054c2a1785fc855') in 0.018440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_FunctionIcons_(x2)/FunctionIcons_32/function_icon_reload.png
+  artifactKey: Guid(42fa45c24fc814e87aeafeb93ca1ff8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_FunctionIcons_(x2)/FunctionIcons_32/function_icon_reload.png using Guid(42fa45c24fc814e87aeafeb93ca1ff8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a414a06f42f36ef7a12618529880add') in 0.017838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Background/background_01_loading_2560.png
+  artifactKey: Guid(afdeac15025e241d0bbdd87c1d3db07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Background/background_01_loading_2560.png using Guid(afdeac15025e241d0bbdd87c1d3db07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5cfaccb79e0d16f9b15884e8d39ac68') in 0.051883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_FunctionIcons_(x2)/FunctionIcons_64/function_icon_reload.png
+  artifactKey: Guid(036c34f0157e448ff9687849ef3b9df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Layer Lab/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_FunctionIcons_(x2)/FunctionIcons_64/function_icon_reload.png using Guid(036c34f0157e448ff9687849ef3b9df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bbd97727c54a0a800a667773a49912') in 0.020309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Assembly 'Assets/ExternalDependencyManager/Editor/1.2.177/Google.IOSResolver.dll' will not be loaded due to errors:
+Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+Symbol file LoadedFromMemory is not a mono symbol file
+Assembly 'Assets/Firebase/Editor/Firebase.Editor.dll' will not be loaded due to errors:
+Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+- Loaded All Assemblies, in  3.107 seconds
+Refreshing native plugins compatible for Editor in 142.50 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at VoxelBusters.CoreLibrary.Editor.SettingsObjectEditorManager.OnEditorReload () [0x0000d] in C:\Unity Projects\Ball simulation\Ball simulation\Assets\Plugins\VoxelBusters\CoreLibrary\Editor\CoreLibrary\Controllers\SettingsObjectEditorManager.cs:16 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <605bf8b31fcb444b85176da963870aa7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <605bf8b31fcb444b85176da963870aa7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <605bf8b31fcb444b85176da963870aa7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <ac87b54e58ee4be198261fd5c8030d52>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.500 seconds
+Domain Reload Profiling: 5604ms
+	BeginReloadAssembly (604ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (44ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (7ms)
+		CreateAndSetChildDomain (372ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (2398ms)
+		LoadAssemblies (1875ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (610ms)
+			TypeCache.Refresh (605ms)
+				TypeCache.ScanAssembly (335ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (2501ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (929ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (553ms)
+			ProcessInitializeOnLoadMethodAttributes (247ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 45.01 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4046 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 281 unused Assets / (163.3 KB). Loaded Objects now: 4388.
+Memory consumption went from 154.9 MB to 154.8 MB.
+Total: 10.197400 ms (FindLiveObjects: 0.387200 ms CreateObjectMapping: 0.150800 ms MarkObjects: 9.264600 ms  DeleteObjects: 0.393200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

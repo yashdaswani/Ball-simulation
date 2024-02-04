@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="firebase_database_url" translatable="false">https://ballsqueue-default-rtdb.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">1016894465478</string>
+  <string name="google_storage_bucket" translatable="false">ballsqueue.appspot.com</string>
+  <string name="project_id" translatable="false">ballsqueue</string>
+  <string name="google_api_key" translatable="false">AIzaSyBf17pUTezhNP5dFRXBGZ949ZgHxXRBiQQ</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBf17pUTezhNP5dFRXBGZ949ZgHxXRBiQQ</string>
+  <string name="google_app_id" translatable="false">1:1016894465478:android:d5fc605aae80b613097ec7</string>
+  <string name="default_web_client_id" translatable="false">1016894465478-p8i150smfgkq7nviavnm49op4b23uogj.apps.googleusercontent.com</string>
+</resources>

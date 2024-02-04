@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "1016894465478",
+    "firebase_url": "https://ballsqueue-default-rtdb.firebaseio.com",
+    "project_id": "ballsqueue",
+    "storage_bucket": "ballsqueue.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016894465478:android:27605ba992b89a93097ec7",
+        "android_client_info": {
+          "package_name": "com.VGamesProductions.Ballsqueue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016894465478-p8i150smfgkq7nviavnm49op4b23uogj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf17pUTezhNP5dFRXBGZ949ZgHxXRBiQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016894465478-p8i150smfgkq7nviavnm49op4b23uogj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016894465478:android:287befe9cb7ff56f097ec7",
+        "android_client_info": {
+          "package_name": "com.VGamesProductions.StrategyGamesPay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016894465478-p8i150smfgkq7nviavnm49op4b23uogj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf17pUTezhNP5dFRXBGZ949ZgHxXRBiQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016894465478-p8i150smfgkq7nviavnm49op4b23uogj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016894465478:android:d5fc605aae80b613097ec7",
+        "android_client_info": {
+          "package_name": "com.infinitygames.Colorballspuzzle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016894465478-p8i150smfgkq7nviavnm49op4b23uogj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf17pUTezhNP5dFRXBGZ949ZgHxXRBiQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016894465478-p8i150smfgkq7nviavnm49op4b23uogj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

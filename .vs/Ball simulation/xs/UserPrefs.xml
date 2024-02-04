@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{B4551811-CDD3-A087-9F71-61B110D6FE72}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/loginWithPlayFab.cs">
+    <Files>
+      <File FileName="Assets/Scripts/gameManager.cs" Line="411" Column="57" />
+      <File FileName="Assets/Scripts/FirebaseSetup.cs" />
+      <File FileName="Assets/Scripts/AdsManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/InternetChecker.cs" />
+      <File FileName="Assets/MainMenu.cs" />
+      <File FileName="Assets/AddressManager.cs" />
+      <File FileName="Assets/ShareMail.cs" />
+      <File FileName="Assets/HandleParticipation.cs" />
+      <File FileName="Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" />
+      <File FileName="../Mini Trooper/Assets/Plugins/WebSocket/WebSocket.jslib" />
+      <File FileName="Assets/Scripts/loginWithPlayFab.cs" Line="39" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d3a1dd63-968e-4372-bb0a-58a5d5990d7b" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
